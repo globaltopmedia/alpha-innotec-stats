@@ -26,7 +26,7 @@ switch ($_GET["context"]) {
 <meta http-equiv="refresh" content="<?php echo $refreshtime; ?>" >
 <!-- <link rel="stylesheet" href="wwc.css"> -->
 <link rel="stylesheet" href="chart.css">
-<script src="<?php echo $YCURL; ?>/yui/yui-min.js"></script>
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"></script>
 </head>
 <body>
 <div class="heating">
