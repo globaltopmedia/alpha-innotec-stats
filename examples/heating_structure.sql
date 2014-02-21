@@ -86,3 +86,17 @@ CREATE TABLE IF NOT EXISTS `timing` (
   PRIMARY KEY (`timestamp`),
   UNIQUE KEY `timestamp` (`timestamp`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `measured_temperature`
+--
+
+CREATE TABLE `measured_temperature` (
+  `timestamp` bigint(20) NOT NULL,
+  `temperature` int(4) NOT NULL,
+  PRIMARY KEY (`timestamp`),
+  UNIQUE KEY `timestamp` (`timestamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

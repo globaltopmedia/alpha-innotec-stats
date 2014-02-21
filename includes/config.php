@@ -5,5 +5,7 @@ $WwcJavaPort = "8888";
 // URL (location) of ycharts
 $YCURL = "/yui3";
 // reload time for chart*.php
-$timeframe=86400*7; // 7 days of data
+$timeframe=86400*14; // 7 days of data
+$wunderground_key="c855f268e9980cf3"; 
+$wunderground_location="Netherlands/Roermond";
 ?>

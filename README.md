@@ -17,7 +17,7 @@ Installing the required software on Debian/Ubuntu:
 
 Download the project (here to /var/www/heating)
 
-	git clone https://github.com/waja/alpha-innotec-stats.git /var/www/heating
+	git clone https://github.com/globaltopmedia/alpha-innotec-stats.git /var/www/heating
 
 ### Dashboard
 
@@ -63,3 +63,4 @@ Please add the following via 'crontab -e', but try avoiding this as root
 	* * * * * php -q /var/www/heating/poller.php
 
 Feel free to adjust the frequency running the poller script to your needs.
+
